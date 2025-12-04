@@ -10,7 +10,7 @@
   )
 
   const research = new ExperienceObject(
-    "Research",
+    "Research Assistant at Molecular Otolaryngology and Renal Laboratories",
     ["Perform labortory methods such as Western blotting, PCR, and gel electrophoresis, ELISA, and IgG affinity purification to detect protein/gene level abnormalities in utlra rare-mediated kidney disease patients",
       "Discuss in a large group setting once a month genetic test results for renal patients",
       "Validate novel antibody assays to improve diagnostic accuracy and enhance understanding of complement dysregulation in patients"
@@ -30,6 +30,51 @@
       "Utilize BEAST and ARGON data analysis software within the context of molecular biology research"
     ]
   )
+
+  const domesticViolenceAndInterventionProgram = new ExperienceObject(
+    "Domestic Violence and Intervention Program",
+    ["Answer crisis calls and providing resources to clients over the phone",
+      "Provide emotional support, guidance, information, and housing to clients",
+      "Assist with typical everyday operation of shelter, including but not limited to inventorying donations, organizing client data collection, cleaning client housing, and organizing supplies and resources to ensure easy access for our clients"
+    ]
+  )
+
+  const shelterHouse = new ExperienceObject(
+    "Shelter House",
+    ["Participate in fundraising events to raise awareness for individuals experiencing homelessness",
+      "Organize and distribute clothes for clients staying in the shelter"
+    ]
+  )
+
+  const crowdedCloset = new ExperienceObject(
+    "Crowded Closet",
+    ["Provide customer service and support as a volunteer cashier by assisting low-income clients in accessing affordable goods",
+      "Provide friendly service by assisting customers with product information, purchases, and resolving concerns"
+    ]
+  )
+
+  const crisisCounselor = new ExperienceObject(
+    "Crisis Counselor",
+    ["Provide immediate emotional support intervention to texters in active state of stres through anonymous text messaging, such as domestic abuse, suicidal thoughts, and resources for housing",
+      "Listen to texters, offered empathy, understanding, and guidance to help navigate their crisis and to find a cooler calm"
+    ]
+  )
+
+  const upstreamInitiative = new ExperienceObject(
+    "Upstream Initiative",
+    ["Discuss resources for food options with eligible patients at University of Iowa Hospitals and Clinics",
+      "Provide food boxes for patients at University of Iowa Hospitals and Clinics",
+      "Facilitate data collection on causes of food insecurity in expecting mothers"
+    ]
+  )
+
+  const foodBank = new ExperienceObject(
+    "CommUnity Food Bank",
+    ["Serve as a first-point of contact for individuals and families experiencing food insecurity and connecting them with available resources",
+      "Support the food bank by organizing, sorting, and managing food donation supplies to support efficient distribution of resources"
+    ]
+  )
+
 
   
 </script>
