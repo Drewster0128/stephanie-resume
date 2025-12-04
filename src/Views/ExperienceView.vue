@@ -1,14 +1,5 @@
 <script setup lang="js">
-  import ExperienceBlock from '../components/ExperienceBlock.vue';
-
-  class ExperienceObject
-  {
-    constructor(title, bullet)
-    {
-      this.title = title;
-      this.bullet = bullet;
-    }
-  }
+  import ExperienceObject from '../types/ExperienceObject'
 
   const geneticCounseling = new ExperienceObject(
     "Genetic Counseling",
