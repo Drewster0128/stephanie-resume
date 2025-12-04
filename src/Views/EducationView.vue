@@ -4,7 +4,7 @@
 
   const degrees = new EducationObject(
     "Degrees",
-    ["B.S Antropology",
+    ["B.S Anthropology",
       "Minor in Biology"
     ]
   )
