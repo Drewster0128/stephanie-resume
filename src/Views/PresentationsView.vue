@@ -24,6 +24,10 @@
 
 <template>
   <section>
-    <PresentationBlock class="p-4" v-for="presentation in presentationList" :presentation="presentation"></PresentationBlock>
+    <PresentationBlock
+      class="p-4"
+      v-for="presentation in presentationList"
+      :presentation="presentation"
+    ></PresentationBlock>
   </section>
 </template>
