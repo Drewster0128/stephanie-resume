@@ -36,6 +36,6 @@
     </nav>
   </header>
   <main>
-    <RouterView />
+    <RouterView class="py-4"/>
   </main>
 </template>

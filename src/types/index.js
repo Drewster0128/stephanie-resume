@@ -15,3 +15,12 @@ export class EducationObject
         this.bullet = bullet;
     }
 }
+
+export class SeminarsObject
+{
+    constructor(title, description)
+    {
+        this.title = title;
+        this.description = description;
+    }
+}

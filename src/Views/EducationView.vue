@@ -37,7 +37,7 @@
 </script>
 
 <template>
-  <section class="py-4">
+  <section>
     <h2 class="text-6xl text-center">University of Iowa</h2>
     <div class="grid grid-flow-col grid-rows-2 grid-cols-2 py-4 px-4 gap-4">
       <EducationBlock

@@ -81,7 +81,7 @@
 </script>
 
 <template>
-  <section class="py-4">
+  <section>
     <h2 class="text-4xl py-3">Research</h2>
     <ExperienceBlock
       v-for="experience in researchList"
