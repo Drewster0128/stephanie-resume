@@ -1,4 +1,5 @@
 <script setup lang="js">
+  import ExperienceBlock from '../components/ExperienceBlock.vue';
   import ExperienceObject from '../types/ExperienceObject'
 
   const researchList = [
@@ -76,13 +77,22 @@
         "Support the food bank by organizing, sorting, and managing food donation supplies to support efficient distribution of resources"
       ]
     )
-  ]  
+  ]
 </script>
 
 <template>
-    <section class="py-4">
-        <ExperienceBlock :title="geneticCounseling.title" :bullets="geneticCounseling.bullet"></ExperienceBlock>
-        <!-- <ExperienceBlock></ExperienceBlock>
-        <ExperienceBlock></ExperienceBlock> -->
-    </section>
+  <section class="py-4">
+    <h2 class="text-4xl py-3">Research</h2>
+    <ExperienceBlock
+      v-for="experience in researchList"
+      :experience="experience"
+    ></ExperienceBlock>
+  </section>
+  <section>
+    <h2 class="text-4xl py-3">Volunteer Work</h2>
+    <ExperienceBlock
+      v-for="experience in volunteerList"
+      :experience="experience"
+    ></ExperienceBlock>
+  </section>
 </template>
