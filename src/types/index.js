@@ -24,3 +24,19 @@ export class SeminarsObject
         this.description = description;
     }
 }
+
+export class PresentationObject
+{
+    constructor(title, location, link, imgSrc=null)
+    {
+        this.title = title;
+        this.location = location;
+        this.imgSrc = imgSrc;
+        this.link = link;
+    }
+
+    hasImg()
+    {
+        return this.imgSrc !== null;
+    }
+}
