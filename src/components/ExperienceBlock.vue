@@ -1,5 +1,5 @@
 <script setup lang="js">
-  import ExperienceObject from '../types/ExperienceObject';
+  import { ExperienceObject } from '../types';
 
   defineProps({
     experience : ExperienceObject

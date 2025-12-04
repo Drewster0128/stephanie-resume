@@ -1,6 +1,6 @@
 <script setup lang="js">
   import ExperienceBlock from '../components/ExperienceBlock.vue';
-  import ExperienceObject from '../types/ExperienceObject'
+  import { ExperienceObject } from '../types'
 
   const researchList = [
     new ExperienceObject(
